@@ -1,3 +1,3 @@
 <?php
-    print("Hello World");
+    print(exec("sh yes.sh"))
 ?>
