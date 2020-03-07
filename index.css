@@ -1,0 +1,16 @@
+#ELIMINATE {
+    background-color: red;
+    color: black;
+    min-height: 200px;
+}
+
+body {
+    background-color: yellow;
+}
+
+.centre {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
