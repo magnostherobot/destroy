@@ -2,15 +2,40 @@
     background-color: red;
     color: black;
     min-height: 200px;
+    min-width: 200px;
+    font-size: 2em;
 }
 
 body {
     background-color: yellow;
+    text-align: center;
 }
 
-.centre {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.container {
+  height: 98vh;
+  position: relative;
+  border: 5px solid green;
+}
+
+h1 {
+    font-size: 3.5em
+}
+h2 {
+    font-size: 2.7em
+}
+h3 {
+    font-size: 2em
+}
+
+#left, #right {
+    background-color: blue;
+    min-width: 24vw;
+    min-height: 24vw;
+}
+
+#left {
+    background: url(floop.png);
+}
+#right {
+    background: url(fried.png);
 }
