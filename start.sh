@@ -1,1 +1,1 @@
-echo -e "0\n$(pwgen)" | gpg --recipient baphomet --yes --output result --encrypt -
+echo -e "0\n$(pwgen)" | gpg --recipient 'baphomet@a.b' --yes --output result --encrypt -
